@@ -16,11 +16,11 @@ public class App
         
         try{
            
-          String endPoint = "https://apigateway.poc.wrsops.net/v1/oauth2/token";
-          String clientId = "f12f294c-e360-483b-b353-f87a07a68bef";
-          String clientSecret = "~G2n1if_fTqD";
-          String redirectURI = "https://api.sandbox.onemarketnetwork.com/v1/oauth2/token/"; //Your IAM Redirect URI 
-          String scope = "retailer.orders.write retailer.orders.read retailer.users.write retailer.users.read"; //Scope for maintaining transaction
+          String endPoint = "https://........v1/oauth2/token";
+          String clientId = “453453-34534-34534-34534-34534dfgfdg”;
+          String clientSecret = “dfgdg345345354”;
+          String redirectURI = "https://........../v1/oauth2/token/"; //Your IAM Redirect URI 
+          String scope = "write read"; //Scope for maintaining transaction
           
           OAuthClient oAuthClient = new OAuthClient(new URLConnectionClient());
           OAuthClientRequest accesstoken_request;
